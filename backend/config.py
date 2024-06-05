@@ -26,5 +26,5 @@ class DevelopmentConfig(Config):
     REDIS_URL = "redis://localhost:6379"
     CELERY_BROKER_URL="redis://localhost:6379/1"
     CELERY_RESULT_BACKEND="redis://localhost:6379/2"
-    UPLOADED_PHOTOS='./static/thumbnails'
-    UPLOADED_AUDIO_FILES='./static/audio files'
+    UPLOADED_PHOTOS='https://raw.githubusercontent.com/bhavya314/flask-music-app/main/static/thumbnails'
+    UPLOADED_AUDIO_FILES='https://raw.githubusercontent.com/bhavya314/flask-music-app/main/static/audio files'
